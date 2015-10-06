@@ -1,10 +1,12 @@
-# Django Facebook Graph API Applications
+Django Facebook Graph API Applications
+======================================
 
-[![Build Status](https://travis-ci.org/ramusus/django-facebook-applications.png?branch=master)](https://travis-ci.org/ramusus/django-facebook-applications) [![Coverage Status](https://coveralls.io/repos/ramusus/django-facebook-applications/badge.png?branch=master)](https://coveralls.io/r/ramusus/django-facebook-applications)
+[![PyPI version](https://badge.fury.io/py/django-facebook-applications.png)](http://badge.fury.io/py/django-facebook-applications) [![Build Status](https://travis-ci.org/ramusus/django-facebook-applications.png?branch=master)](https://travis-ci.org/ramusus/django-facebook-applications) [![Coverage Status](https://coveralls.io/repos/ramusus/django-facebook-applications/badge.png?branch=master)](https://coveralls.io/r/ramusus/django-facebook-applications)
 
 Application for interacting with Facebook Graph API Applications objects using Django model interface
 
-## Installation
+Installation
+------------
 
     pip install django-facebook-applications
 
@@ -24,3 +26,9 @@ Add into `settings.py` lines:
     OAUTH_TOKENS_FACEBOOK_SCOPE = ['offline_access']                   # application scopes
     OAUTH_TOKENS_FACEBOOK_USERNAME = ''                                # user login
     OAUTH_TOKENS_FACEBOOK_PASSWORD = ''                                # user password
+
+Licensing
+---------
+
+This library uses the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+Please see the library's individual files for more information.
