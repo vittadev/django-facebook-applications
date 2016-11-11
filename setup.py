@@ -16,6 +16,7 @@ setup(
     install_requires=[
         'django-facebook-api>=0.1.4',
     ],
+    dependency_links=['https://github.com/vittadev/django-facebook-api#egg=django-facebook-api'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
